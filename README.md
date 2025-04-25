@@ -78,6 +78,7 @@ Login to the [Intel Developer Portal](https://api.portal.trustedservices.intel.c
 
 ```bash
 git clone https://github.com/intel/ehsm
+cd ehsm
 ```
 
 Edit the following environment files:
