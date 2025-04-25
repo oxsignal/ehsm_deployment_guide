@@ -69,6 +69,8 @@ Date: <date>
 
 ## Guest (Application) Setup
 
+* I will skip the installation of SGX dependencies on the guest machine. For detailed instructions, please refer to [Intel's SGX repository](https://github.com/intel/linux-sgx).
+
 ### 0. Intel API Key
 Login to the [Intel Developer Portal](https://api.portal.trustedservices.intel.com/) and generate your API key.
 
