@@ -42,7 +42,7 @@ sudo apt install -y sgx-pck-id-retrieval-tool
  Fetch and register your SGX platform's PCK ID using PCCS or Intel PCS:
 (You may need `root` or `sgx_prv` privilege to run this)
 ```bash
-PCKIDRetrievalTool -f host_$(hostnamectl --static).csv -url https://api.trustedservices.intel.com/sgx/registration/v1/platform -use_secure_cert false
+PCKIDRetrievalTool -f host_$(hostnamectl --static).csv -use_secure_cert false
 ```
 - If a PCCS server is present, registration is automatic.
 - If not, manually register the platform_manifest info to your Intel PCS server.
