@@ -34,7 +34,7 @@ sgx-keyring.asc > /dev/null
 
 ```bash
 sudo apt-get update
-sudo apt install libsgx-psw
+sudo apt install -y libsgx-psw
 sudo apt install -y sgx-pck-id-retrieval-tool
 ```
 
