@@ -8,7 +8,7 @@ After reviewing several documents on Intel's remote attestation architecture, I 
 This document is also intended for those who prefer deploying the service on a virtual machine (VM) rather than directly on the host.
 As far as I know, remote attestation is supported in virtualized environments, but I was unable to register platform within a VM.
 
-In this setup, the host system is responsible for generating the PCKID and registering the platform ID via Intel PCCS, which requires SGX drivers to be installed.
+In this setup, the host system is responsible for generating the PCKID and registering the platform ID.
 All installation steps have been tested on `Ubuntu 24.04 LTS: Noble Numbat` with the Linux kernel version `6.8.0-58-generic`. 
 
 Installation Verified On: 2025-04-25
